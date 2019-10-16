@@ -3,7 +3,8 @@ package main
 import "github.com/01-edu/z01"
 
 func main() {
-	for i := 'z'; i >= 'a'; {
+	var i rune = 'z'
+	for i >= 'a'; {
 		z01.PrintRune(i)
 		i--
 	}
