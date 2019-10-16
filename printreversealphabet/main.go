@@ -1,12 +1,11 @@
 package main
 
 import "github.com/01-edu/z01"
-import "fmt"
 
 func main() {
-	for i := 122; i >= 97; {
+	for i := 'z'; i >= 'a'; {
 		z01.PrintRune(i)
 		i--
 	}
-	fmt.Println('\n')
+	z01.PrintRune(10)
 }
