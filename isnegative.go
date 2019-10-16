@@ -10,8 +10,3 @@ func IsNegative(nb int) {
 	}
 	z01.PrintRune('\n')
 }
-func main() {
-	z01.IsNegative(1)
-	z01.IsNegative(0)
-	z01.IsNegative(-1)
-}
